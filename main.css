@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+}
+header{
+    height: 70vh;
+    background: black;
+}
+.first{
+    height: 200vh;
+    background: cadetblue;
+    display: flex;
+}
+.second{
+    height: 64vh;
+    background-image: url("photo/contactIMG.png");
+    background-size: cover;
+}
+.title{
+    color: #FF4B32;
+    text-align: center;
+    font-size: 1vw;
+}
+.name{
+    color: #FFF;
+    text-align: center;
+    font-size: 2vw;
+    font-style: normal;
+}
+.number {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+}
+.phone-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    background-image: url('photo/Telephone.png'); 
+    width: 24px;
+    height: 24px;
+}
+.mail{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+}
+.mail-icon{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    background-image: url('photo/gmail loogo.png');
+    width: 20px;
+    height: 15px;
+}
+.social-networks{
+   text-align: center;
+}
+.social-networks img {
+    margin: 0 10px; 
+}
+.third{
+    height: 100vh;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрує горизонтально */
+    justify-content: center; /* Центрує вертикально */
+}
+.page-header{
+    text-align: center;
+    color: #000;
+    font-size: 43px;
+}
+.text{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+}
+.box-cards{
+    height: 53vh;
+    width: 605px;
+    text-align: center;
+    display: flex;
+}
+.one{
+    height: 53vh;
+    width: 200px;
+    background-color: red;
+
+}
+.two{
+    height: 53vh;
+    width: 200px;
+    background-color:greenyellow;
+
+}
+.free{
+    height: 53vh;
+    width: 200px;
+    background-color: saddlebrown;
+
+}
+.---{
+    height: 53vh;
+    width: 5vw;
+    background-color: wheat;
+}
+.cards-one{
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+}
+.cards-two{
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+}
+.cards-free{
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.box-cards > div:not(:last-child) {
+    margin-right: 5px; /* Додає відступ між елементами крім останнього */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 40vh;
+    background: lightskyblue;
+}
