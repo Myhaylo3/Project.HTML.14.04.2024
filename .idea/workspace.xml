@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f579ef6f-21c6-48b4-99d5-3b8af64853a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project.HTML.14.04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo/Facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo/Instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo/Linkdin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo/Telephone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo/Twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo/cards-free.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo/cards-one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo/cards-two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo/contactIMG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo/gmail loogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo/headerIMG.png" afterDir="false" />
+    <list default="true" id="f579ef6f-21c6-48b4-99d5-3b8af64853a8" name="Changes" comment="project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,11 +74,25 @@
       <workItem from="1713111442434" duration="4000" />
       <workItem from="1713114648599" duration="171000" />
       <workItem from="1713117337420" duration="6800000" />
-      <workItem from="1713124305176" duration="2746000" />
+      <workItem from="1713124305176" duration="2771000" />
+      <workItem from="1713197663514" duration="3293000" />
     </task>
+    <task id="LOCAL-00001" summary="project">
+      <option name="closed" value="true" />
+      <created>1713127701503</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713127701503</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project" />
+    <option name="LAST_COMMIT_MESSAGE" value="project" />
   </component>
 </project>

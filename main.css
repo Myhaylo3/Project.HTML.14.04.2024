@@ -78,26 +78,32 @@ header{
 }
 .box-cards{
     height: 53vh;
-    width: 605px;
+    width: 757px;
     text-align: center;
     display: flex;
 }
 .one{
     height: 53vh;
-    width: 200px;
-    background-color: red;
+    width: 250px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
 
 }
 .two{
     height: 53vh;
-    width: 200px;
-    background-color:greenyellow;
+    width: 250px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
 
 }
 .free{
     height: 53vh;
-    width: 200px;
-    background-color: saddlebrown;
+    width: 250px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
 
 }
 .---{
@@ -106,35 +112,31 @@ header{
     background-color: wheat;
 }
 .cards-one{
-    width: 200px;
+    width: 250px;
     height: 200px;
     flex-shrink: 0;
 }
 .cards-two{
-    width: 200px;
+    width: 250px;
     height: 200px;
     flex-shrink: 0;
 }
 .cards-free{
-    width: 200px;
+    width: 250px;
     height: 200px;
     flex-shrink: 0;
 }
 
 .box-cards > div:not(:last-child) {
-    margin-right: 5px; /* Додає відступ між елементами крім останнього */
+    margin-right: 7px;
 }
-
-
-
-
-
-
-
-
-
-
-
+h2{
+    margin-right: 80px;
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 41.6px;
+}
 
 footer{
     height: 40vh;
