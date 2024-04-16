@@ -78,13 +78,13 @@ header{
 }
 .box-cards{
     height: 53vh;
-    width: 757px;
+    width: 787px;
     text-align: center;
     display: flex;
 }
 .one{
     height: 53vh;
-    width: 250px;
+    width: 260px;
     border-radius: 20px;
     background: #FFF;
     box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
@@ -92,7 +92,7 @@ header{
 }
 .two{
     height: 53vh;
-    width: 250px;
+    width: 260px;
     border-radius: 20px;
     background: #FFF;
     box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
@@ -100,7 +100,7 @@ header{
 }
 .free{
     height: 53vh;
-    width: 250px;
+    width: 260px;
     border-radius: 20px;
     background: #FFF;
     box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
@@ -112,32 +112,44 @@ header{
     background-color: wheat;
 }
 .cards-one{
-    width: 250px;
+    width: 260px;
     height: 200px;
     flex-shrink: 0;
 }
 .cards-two{
-    width: 250px;
+    width: 260px;
     height: 200px;
     flex-shrink: 0;
 }
 .cards-free{
-    width: 250px;
+    width: 260px;
     height: 200px;
     flex-shrink: 0;
 }
-
 .box-cards > div:not(:last-child) {
     margin-right: 7px;
 }
 h2{
-    margin-right: 80px;
     color: #000;
-    font-size: 25px;
-    font-style: normal;
-    line-height: 41.6px;
+    font-size: 20px;
+    text-align: start;
+    font-family: "Josefin Sans";
+    margin-left: 20px
 }
-
+.middle{
+    color: #000;
+    font-size: 15px;
+    text-align: start;
+    font-family: "Open Sans";
+    margin-left: 20px;
+}
+.limb{
+    color: #FF4B32;
+    font-size: 14px;
+    text-align: start;
+    margin-left: 20px;
+    font-family: "Open Sans";
+}
 footer{
     height: 40vh;
     background: lightskyblue;
