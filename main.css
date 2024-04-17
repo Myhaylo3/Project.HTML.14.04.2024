@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 body{
     margin: 0;
 }
@@ -11,20 +14,14 @@ header{
     display: flex;
 }
 
-
-
-
-
-
 .second{
-
     width: 1440px;
     height: 650px;
     background-image: url("photo/contactIMG.png");
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Центрує по вертикалі */
-    align-items: center; /* Центрує по горизонталі */
+    /*display: flex;*/
+    /*!*flex-direction: column;*!*/
+    /*!*justify-content: center; !* Центрує по вертикалі *!*!*/
+    /*!*align-items: center; !* Центрує по горизонталі *!*!*/
 
 }
 .title{
@@ -32,18 +29,22 @@ header{
     text-align: center;
     font-size: 24px;
     font-family: "Open Sans";
+    margin-bottom: 65px;
+    margin-top: 112px;
 }
 .name{
     color: #FFF;
     text-align: center;
     font-family: "Josefin Sans";
     font-size: 43px;
+    margin-bottom: 60px;
 }
 .number {
     color: #FFF;
     text-align: center;
     font-family: "Open Sans";
     font-size: 24px;
+    margin-bottom: 24px;
 }
 .phone-icon {
     display: inline-block;
@@ -58,6 +59,7 @@ header{
     text-align: center;
     font-family: "Open Sans";
     font-size: 24px;
+    margin-bottom: 71px;
 }
 .mail-icon{
     display: inline-block;
@@ -72,9 +74,7 @@ header{
 }
 .social-networks img {
     margin: 0 10px;
-
 }
-
 
 
 
@@ -86,30 +86,31 @@ header{
     background: #FFF;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-}
-.profile-header{
-
 }
 .page-header{
     text-align: center;
     color: #000;
     font-size: 43px;
     font-family: "Josefin Sans";
+    margin-top: 152px;
+    margin-bottom: 20px;
 }
 .text{
     color: #000;
     text-align: center;
     font-size: 18px;
     font-family: "Open Sans";
+    margin-bottom: 60px;
 }
+
 .box-cards{
     height: 362px;
-    width: 1106px;
+    width: 1146px;
     text-align: center;
     display: flex;
+    justify-content: center;
+    margin-left: 147px;
 }
 .one{
     width: 362px;
@@ -139,8 +140,8 @@ header{
 }
 .---{
     height: 362px;
-    width: 10px;
-    background-color: wheat;
+    width:30px;
+    background-color: rgba(245, 222, 179, 0);
 }
 .cards-one{
     width: 362px;
@@ -161,27 +162,28 @@ header{
     margin-right: 7px;
 }
 
-
-
 h2{
     color: #000;
     font-size: 32px;
     text-align: start;
     font-family: "Josefin Sans";
-    margin-left: 20px
+    margin-left: 30px;
+    margin-top:30px;
 }
 .middle{
     color: #000;
     font-size: 16px;
     text-align: start;
     font-family: "Open Sans";
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 .limb{
     color: #FF4B32;
     font-size: 16px;
     text-align: start;
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
     font-family: "Open Sans";
 }
 footer{
