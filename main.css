@@ -10,25 +10,39 @@ header{
     background: cadetblue;
     display: flex;
 }
+
+
+
+
+
+
 .second{
-    height: 64vh;
+
+    width: 1440px;
+    height: 650px;
     background-image: url("photo/contactIMG.png");
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрує по вертикалі */
+    align-items: center; /* Центрує по горизонталі */
+
 }
 .title{
     color: #FF4B32;
     text-align: center;
-    font-size: 1vw;
+    font-size: 24px;
+    font-family: "Open Sans";
 }
 .name{
     color: #FFF;
     text-align: center;
-    font-size: 2vw;
-    font-style: normal;
+    font-family: "Josefin Sans";
+    font-size: 43px;
 }
 .number {
     color: #FFF;
     text-align: center;
+    font-family: "Open Sans";
     font-size: 24px;
 }
 .phone-icon {
@@ -42,6 +56,7 @@ header{
 .mail{
     color: #FFF;
     text-align: center;
+    font-family: "Open Sans";
     font-size: 24px;
 }
 .mail-icon{
@@ -56,96 +71,115 @@ header{
    text-align: center;
 }
 .social-networks img {
-    margin: 0 10px; 
+    margin: 0 10px;
+
 }
+
+
+
+
+
+
 .third{
-    height: 100vh;
+    height: 1024px;
+    width: 1440px;
     background: #FFF;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Центрує горизонтально */
-    justify-content: center; /* Центрує вертикально */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.profile-header{
+
 }
 .page-header{
     text-align: center;
     color: #000;
     font-size: 43px;
+    font-family: "Josefin Sans";
 }
 .text{
     color: #000;
     text-align: center;
     font-size: 18px;
+    font-family: "Open Sans";
 }
 .box-cards{
-    height: 53vh;
-    width: 787px;
+    height: 362px;
+    width: 1106px;
     text-align: center;
     display: flex;
 }
 .one{
-    height: 53vh;
-    width: 260px;
+    width: 362px;
+    height: 536px;
+    flex-shrink: 0;
     border-radius: 20px;
     background: #FFF;
     box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
-
 }
 .two{
-    height: 53vh;
-    width: 260px;
+    width: 362px;
+    height: 536px;
+    flex-shrink: 0;
     border-radius: 20px;
     background: #FFF;
     box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
 
 }
 .free{
-    height: 53vh;
-    width: 260px;
+    width: 362px;
+    height: 536px;
+    flex-shrink: 0;
     border-radius: 20px;
     background: #FFF;
     box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
 
 }
 .---{
-    height: 53vh;
-    width: 5vw;
+    height: 362px;
+    width: 10px;
     background-color: wheat;
 }
 .cards-one{
-    width: 260px;
-    height: 200px;
+    width: 362px;
+    height: 300px;
     flex-shrink: 0;
 }
 .cards-two{
-    width: 260px;
-    height: 200px;
+    width: 362px;
+    height: 300px;
     flex-shrink: 0;
 }
 .cards-free{
-    width: 260px;
-    height: 200px;
+    width: 362px;
+    height: 300px;
     flex-shrink: 0;
 }
 .box-cards > div:not(:last-child) {
     margin-right: 7px;
 }
+
+
+
 h2{
     color: #000;
-    font-size: 20px;
+    font-size: 32px;
     text-align: start;
     font-family: "Josefin Sans";
     margin-left: 20px
 }
 .middle{
     color: #000;
-    font-size: 15px;
+    font-size: 16px;
     text-align: start;
     font-family: "Open Sans";
     margin-left: 20px;
 }
 .limb{
     color: #FF4B32;
-    font-size: 14px;
+    font-size: 16px;
     text-align: start;
     margin-left: 20px;
     font-family: "Open Sans";
