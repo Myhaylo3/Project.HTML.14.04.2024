@@ -17,7 +17,7 @@ header{
 .second{
     width: 1440px;
     height: 650px;
-    background-image: url("photo/contactIMG.png");
+    background-image: url("pictures/contactIMG.png");
     /*display: flex;*/
     /*!*flex-direction: column;*!*/
     /*!*justify-content: center; !* Центрує по вертикалі *!*!*/
@@ -50,7 +50,7 @@ header{
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px;
-    background-image: url('photo/Telephone.png'); 
+    background-image: url('pictures/Telephone.png');
     width: 24px;
     height: 24px;
 }
@@ -65,7 +65,7 @@ header{
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px;
-    background-image: url('photo/gmail loogo.png');
+    background-image: url('pictures/gmail loogo.png');
     width: 20px;
     height: 15px;
 }
